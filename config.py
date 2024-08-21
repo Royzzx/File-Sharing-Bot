@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "15912260"))
 API_HASH = os.environ.get("API_HASH", "5c7ba9544c4d7cf3fecefebf1fd6f8bc")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002050257310"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001670547131"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "533890503"))
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
+USER_REPLY_TEXT = "You Are Not Authorised User"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(533890503)
