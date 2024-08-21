@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001718802828"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nMade to serve for @MovieFive_App.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nWelcome to @MovieFive_App.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
